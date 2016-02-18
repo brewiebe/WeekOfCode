@@ -115,6 +115,7 @@ public class ScalarProducts {
         List<Integer> residues = residues(products, M);
         //printResidues(residues);
 
+        //print final answer of # of unique resides % original M value enter
         System.out.println(residues.size() % M);
 
     }
